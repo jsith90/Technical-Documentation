@@ -1,5 +1,5 @@
 body {
-    position: absolute;
+    /* position: absolute; */
     min-height: 100vh;
     margin: 0;
     overflow-x: hidden;
@@ -7,8 +7,9 @@ body {
     font-family: 'Roboto Mono', serif;
 }
 
-navbar {
+#navbar {
     position: fixed;
+    z-index: 2;
     min-width: 290px;
     top: 0px;
     left: 0px;
@@ -16,9 +17,27 @@ navbar {
     height: 100%;
     border-right: solid;
     border-color: rgba(0, 22, 22, 0.4);
+    background-color: #FFA400;
+}
+
+#navbar a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    text-decoration: none;
+    color: #EAF6FF;
+    padding: 5px;
+    font-size: 0.8rem;
+}
+
+main {
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom:110px;
 }
 
 
-@media screen {
+/* @media screen {
     
-}
+} */
