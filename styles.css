@@ -56,9 +56,15 @@ main {
     margin-bottom:110px;
 }
 
+
+
 h2 {
     background-color: #FFA400;
     color: #EAF6FF;
+}
+
+h2::before {
+    background-image: url('/images/70s_food.jpg') no-repeat center;
 }
 
 
